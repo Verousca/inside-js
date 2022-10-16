@@ -10,15 +10,15 @@ const funk = (parameter) => {
 };
 
 const funkReturn1 = funk('hello');
-const funk1 = funkReturn1 === _;
+const funk1 = funkReturn1 === 'funky hello';
 console.assert(funk1, 'Test 1: funk');
 
 const funkReturn2 = funk('boat');
-const funk2 = funkReturn2 === _;
+const funk2 = funkReturn2 === 'funky boat';
 console.assert(funk2, 'Test 2: funk');
 
 const funkReturn3 = funk('tree');
-const funk3 = funkReturn3 === _;
+const funk3 = funkReturn3 === 'funky tree';
 console.assert(funk3, 'Test 3: funk');
 
 const jazz = (parameter) => {
@@ -27,7 +27,7 @@ const jazz = (parameter) => {
 };
 
 const jazzReturn1 = jazz('hello');
-const jazz1 = jazzReturn1 === _;
+const jazz1 = jazzReturn1 === 'hello jazz';
 console.assert(jazz1, 'Test 1: jazz');
 
 const jazzReturn2 = jazz('boat');
